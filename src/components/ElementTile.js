@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export const ElementTile = (props) => {
     var id = props.id;
-    var num = props.num;
+    var num = props.element.num;
     var symbol = props.symbol;
     var name = props.name;
     var mass = props.mass;
@@ -21,7 +21,7 @@ export const ElementTile = (props) => {
 
     return (
         <td className={classes} colSpan={tableWidth}>
-            
+            {num}
         </td>
     );
 

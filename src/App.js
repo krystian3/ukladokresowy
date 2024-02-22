@@ -3,13 +3,16 @@ import './App.css';
 import { PeriodicTable } from './components/PeriodicTable';
 
 function App() {
-  const table = []
+  const table = [
+    {"num": 1, "tableWidth":18, "type":"metal"},
+    {"num": 1, "tableWidth":18, "type":"metal"},
+    {"type":"end"},
+    {"num": 2, "tableWidth":1, "type":""},
+  ]
 
   return (
     <div className="App">
-      <table>
-        <PeriodicTable elements={table}/>
-      </table>
+      <PeriodicTable elements={table}/>
     </div>
   );
 }
