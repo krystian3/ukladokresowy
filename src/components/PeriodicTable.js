@@ -31,7 +31,7 @@ export const PeriodicTable = (props) => {
         //     />      
         // );
         // return (newRow ? rowEnd : normal)
-        if (element.type == "end"){
+        if (element.type === "end"){
             return parse("</tr><tr>");
         } else {
             return (
@@ -44,7 +44,8 @@ export const PeriodicTable = (props) => {
     });
 
     return (
-        <table>
+        <table
+        className='element-table'>
             {renderTable}
         </table>
     );

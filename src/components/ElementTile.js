@@ -1,27 +1,30 @@
 import React, { useState } from 'react';
 
 export const ElementTile = (props) => {
-    var id = props.id;
+    var id = props.element.id;
     var num = props.element.num;
-    var symbol = props.symbol;
-    var name = props.name;
-    var mass = props.mass;
-    var meltTemp = props.meltTemp;
-    var boilTemp = props.boilTemp;
-    var desc = props.desc;
-    var discoveryYear = props.discoveryYear;
-    var period = props.period;
-    var group = props.group;
-    var electroNegativity = props.electroNegativity;
-    var imgUrl = props.imgUrl;
-    var tableWidth = props.tableWidth;
-    var type = props.type;
+    var symbol = props.element.symbol;
+    var name = props.element.name;
+    var mass = props.element.mass;
+    var meltTemp = props.element.meltTemp;
+    var boilTemp = props.element.boilTemp;
+    var desc = props.element.desc;
+    var discoveryYear = props.element.discoveryYear;
+    var period = props.element.period;
+    var group = props.element.group;
+    var electroNegativity = props.element.electroNegativity;
+    var imgUrl = props.element.imgUrl;
+    var tableWidth = props.element.tableWidth;
+    var type = props.element.type;
 
-    var classes = `element-tile ${type}`
+    var classes = `element-tile ${type}`;
 
     return (
         <td className={classes} colSpan={tableWidth}>
-            {num}
+            <span className='el-num el'>{num}</span>
+            <span className='el-symbol el'>{symbol}</span>
+            <span className='el-name el'>{name}</span>
+            <span className='el-mass el'>{mass}</span>
         </td>
     );
 

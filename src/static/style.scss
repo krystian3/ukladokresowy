@@ -1,0 +1,76 @@
+.space{
+    visibility: hidden;
+}
+
+.metal{
+    background-color: #9a39c6;
+}
+
+.nonmetal{
+    background-color: #f2b20d;
+}
+
+.noble{
+    background-color: #d5872a;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .searchbar{
+        width: 100%;
+        height: 5rem;
+        background-color: paleturquoise;
+    }
+
+    .content{
+        width: 100%;
+        height: 40%;
+    }
+
+    .legend{
+        background-color: palevioletred;
+        width: 100%;
+        height: 5rem;
+    }
+}
+
+
+
+.element-table{
+    width: 100%;
+  
+  .element-tile{
+    color: white;
+
+    .el{
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .el-num{
+        font-weight: bold;
+        text-align: left;
+        float: left;
+        font-size: 75%;
+    }
+
+    .el-symbol{
+        font-weight: bold;
+        font-size: 150%;
+    }
+    
+    .el-name{
+        font-size: 80%;
+    }
+
+    .el-mass{
+        font-size: 80%;
+    }
+  }
+}
+  
