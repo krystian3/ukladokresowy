@@ -15,8 +15,9 @@ export const ElementTile = (props) => {
     if (type!=="gap"){
         return (
             <td className={classes} colSpan={tableWidth}>
+                <span className='el-num'>{num}</span>
                 <span className='el'>
-                    <span className='el-num'>{num}</span>
+                    
                     <span className='el-symbol'>{symbol}</span>
                 </span>
                 <span className='el'>
