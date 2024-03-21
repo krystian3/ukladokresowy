@@ -11,8 +11,8 @@ export const Legend = (props) => {
         <div className='legend-el'><span></span><button className='semi_metal example'>Metalloidy</button></div>
         <div className='legend-el'><span></span><button className='halogen example'>Halogeny</button></div>
         <div className='legend-el'><span></span><button className='noble_gas example'>Gazy Szlachetne</button></div>
-        <div className='legend-el'><span></span><button className='lantanian example'>Lantanowce</button></div>
-        <div className='legend-el'><span></span><button className='actinian example'>Aktynowce</button></div>
+        <div className='legend-el'><span></span><button className='lanthanide example'>Lantanowce</button></div>
+        <div className='legend-el'><span></span><button className='actinoid example'>Aktynowce</button></div>
         </>
     );
 }

@@ -1074,7 +1074,7 @@
     "group": 16,
     "electroNegativity": 2.0,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Polonium%2C_84_Po.jpg/480px-Polonium%2C_84_Po.jpg",
-    "type": "metalloid"
+    "type": "semi_metal"
   },
   {
     "num": 85,
@@ -1380,7 +1380,9 @@
     "type": "noble_gas"
   },
   {
-    "type": "end"
+    "type": "half_gap",
+    "tableWidth": 18
+
   },
   {
     "type": "end"

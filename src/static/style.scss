@@ -49,11 +49,11 @@
     background-color: #8c6e91;
 }
 
-.lantanian{
+.lanthanide{
     background-color: #4e60b1;
 }
 
-.actinian{
+.actinoid{
     background-color: #40abbf;
 }
 
@@ -87,8 +87,12 @@
         display: flex;
         flex-direction: row;
 
-        .example{
-            color: white;
+        .legend-el{
+            
+
+            .example{
+                color: white;
+            }
         }
     }
 
@@ -107,6 +111,7 @@
     color: white;
     border-right: 1px solid;
     border-left: 1px solid;
+    cursor: pointer;
 
     .el{
         display: inline-block;
