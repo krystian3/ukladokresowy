@@ -2,8 +2,23 @@
     visibility: hidden;
 }
 
+.example{
+    display: inline-block;
+    height: 100%;
+    border: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.5rem;
+}
+
+.legend-el{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .metal{
-    background-color: #9a39c6;
+    background-color: #84609f;
 }
 
 .nonmetal{
@@ -14,20 +29,35 @@
     background-color: #d5872a;
 }
 
+.lantanian{
+    background-color: #4e60b1;
+}
+
+.actinian{
+    background-color: #40abbf;
+}
+
 .App{
     display: flex;
     flex-direction: column;
     height: 100%;
 
-    .searchbar{
-        width: 100%;
-        height: 5rem;
-        background-color: paleturquoise;
-    }
-
+    
     .content{
         width: 100%;
         height: 40%;
+        display: flex;
+
+        .table{
+            width: 80%;
+        }
+
+        .searchbar{
+            width: 20%;
+            height: 5rem;
+            background-color: paleturquoise;
+        }
+    
     }
 
     .legend{
@@ -35,15 +65,22 @@
         width: 100%;
         height: 5rem;
     }
+
 }
 
 
 
 .element-table{
     width: 100%;
+    border: 1px;
+    display: table;
   
   .element-tile{
+    display: table-cell;
+    width: calc(100%/18);
     color: white;
+    border-right: 1px solid;
+    border-left: 1px solid;
 
     .el{
         display: inline-block;
@@ -65,12 +102,24 @@
     }
     
     .el-name{
+        max-width: 100%;
+        overflow: hidden;
         font-size: 80%;
+        white-space: nowrap;
     }
 
     .el-mass{
         font-size: 80%;
     }
   }
+
+  .element-tile:hover{
+    transform: scale(1.05);
+  }
+}
+
+.popup{
+    position: absolute;
+    left: 200px
 }
   

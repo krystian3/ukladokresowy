@@ -8,29 +8,6 @@ export const PeriodicTable = (props) => {
     const [groupCounter, setGroupCounter] = useState(0);
 
     const renderTable = props.elements.map((element, index) => {
-        // var newRow = (groupCounter>=18);
-        // if (newRow){
-        //     //setGroupCounter(element.tableWidth);
-        // } else {
-        //     setGroupCounter(groupCounter + element.tableWidth);
-        // }
-        // //setGroupCounter((newRow ? element.tableWidth : groupCounter + element.tableWidth));
-        
-
-        // var normal = (
-        //     <ElementTile
-        //         element={element}
-        //         key={index}
-        //     />
-        // );
-
-        // var rowEnd = (
-        //     <ElementTile
-        //         element={element}
-        //         key={index}
-        //     />      
-        // );
-        // return (newRow ? rowEnd : normal)
         if (element.type === "end"){
             return parse("</tr><tr>");
         } else {
