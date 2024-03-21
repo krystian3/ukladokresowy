@@ -1,29 +1,30 @@
 import React, { useState } from 'react';
+import {ElementPopup} from './ElementPopup';
 
 export const ElementTile = (props) => {
-    var id = props.id;
-    var num = props.num;
-    var symbol = props.symbol;
-    var name = props.name;
-    var mass = props.mass;
-    var meltTemp = props.meltTemp;
-    var boilTemp = props.boilTemp;
-    var desc = props.desc;
-    var discoveryYear = props.discoveryYear;
-    var period = props.period;
-    var group = props.group;
-    var electroNegativity = props.electroNegativity;
-    var imgUrl = props.imgUrl;
-    var tableWidth = props.tableWidth;
-    var type = props.type;
+    var id = props.element.id;
+    var num = props.element.num;
+    var symbol = props.element.symbol;
+    var name = props.element.name;
+    var mass = props.element.mass;
+    var tableWidth = props.element.tableWidth;
+    var type = props.element.type;
 
-    var classes = `element-tile ${type}`
+    var classes = `element-tile ${type}`;
 
     return (
         <td className={classes} colSpan={tableWidth}>
-            
+            <span className='el'>
+                <span className='el-num'>{num}</span>
+                <span className='el-symbol'>{symbol}</span>
+            </span>
+            <span className='el'>
+            <div className='el-name'>{name}</div>
+            </span>
+            <span className='el-mass el'>{mass}</span>
+            <ElementPopup element={props.element}/>
         </td>
     );
-
-
 }
+
+export default ElementTile;

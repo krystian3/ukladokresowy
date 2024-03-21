@@ -1,0 +1,108 @@
+.space {
+  visibility: hidden;
+}
+
+.example {
+  display: inline-block;
+  height: 100%;
+  border: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.5rem;
+}
+
+.legend-el {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.metal {
+  background-color: #84609f;
+}
+
+.nonmetal {
+  background-color: #f2b20d;
+}
+
+.noble {
+  background-color: #d5872a;
+}
+
+.lantanian {
+  background-color: #4e60b1;
+}
+
+.actinian {
+  background-color: #40abbf;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.App .content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.App .content .table {
+  width: 80%;
+}
+.App .content .searchbar {
+  width: 20%;
+  height: 5rem;
+  background-color: paleturquoise;
+}
+.App .legend {
+  background-color: palevioletred;
+  width: 100%;
+  height: 5rem;
+}
+
+.element-table {
+  width: 100%;
+  border: 1px;
+  display: table;
+}
+.element-table .element-tile {
+  display: table-cell;
+  width: 5.5555555556%;
+  color: white;
+  border-right: 1px solid;
+  border-left: 1px solid;
+}
+.element-table .element-tile .el {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.element-table .element-tile .el-num {
+  font-weight: bold;
+  text-align: left;
+  float: left;
+  font-size: 75%;
+}
+.element-table .element-tile .el-symbol {
+  font-weight: bold;
+  font-size: 150%;
+}
+.element-table .element-tile .el-name {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 80%;
+  white-space: nowrap;
+}
+.element-table .element-tile .el-mass {
+  font-size: 80%;
+}
+.element-table .element-tile:hover {
+  transform: scale(1.05);
+}
+
+.popup {
+  position: absolute;
+  left: 200px;
+}/*# sourceMappingURL=style.css.map */
