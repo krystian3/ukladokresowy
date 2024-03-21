@@ -12,7 +12,7 @@
     "group": 1,
     "electroNegativity": 2.1,
     "imgUrl": "https://static.polityka.pl/_resource/res/path/0f/01/0f0122de-0cd9-46fc-a372-e1432e10550b_f1400x900",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "tableWidth": 16,
@@ -83,7 +83,7 @@
     "group": 13,
     "electroNegativity": 2.0,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bor_1.jpg/240px-Bor_1.jpg",
-    "type": "semimetal"
+    "type": "semi_metal"
   },
   {
     "num": 6,
@@ -98,7 +98,7 @@
     "group": 14,
     "electroNegativity": 2.5,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Diamond-and-graphite-with-scale.jpg/480px-Diamond-and-graphite-with-scale.jpg",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 7,
@@ -113,7 +113,7 @@
     "group": 15,
     "electroNegativity": 3.0,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Liquid_nitrogen_dsc04496.jpg/360px-Liquid_nitrogen_dsc04496.jpg",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 8,
@@ -128,7 +128,7 @@
     "group": 16,
     "electroNegativity": 3.5,
     "imgUrl": "https://static.polityka.pl/_resource/res/path/f4/6e/f46e31b6-8410-4962-beb3-f137d1e6c23d_f1400x900",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 9,
@@ -225,7 +225,7 @@
     "group": 14,
     "electroNegativity": 1.8,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SiliconCroda.jpg/480px-SiliconCroda.jpg",
-    "type": "semimetal"
+    "type": "semi_metal"
   },
   {
     "num": 15,
@@ -240,7 +240,7 @@
     "group": 15,
     "electroNegativity": 2.1,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Red_phosphorus.jpg/360px-Red_phosphorus.jpg",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 16,
@@ -255,7 +255,7 @@
     "group": 16,
     "electroNegativity": 2.5,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sulfur-sample.jpg/480px-Sulfur-sample.jpg",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 17,
@@ -498,7 +498,7 @@
     "group": 14,
     "electroNegativity": 2.01,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Germanium_crystal_bar_and_1cm3_cube.jpg/480px-Germanium_crystal_bar_and_1cm3_cube.jpg",
-    "type": "semimetal"
+    "type": "semi_metal"
   },
   {
     "num": 33,
@@ -513,7 +513,7 @@
     "group": 15,
     "electroNegativity": 2.18,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Arsen_orange_poly.jpg/360px-Arsen_orange_poly.jpg",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 34,
@@ -528,7 +528,7 @@
     "group": 16,
     "electroNegativity": 2.55,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Red_Selenium.jpg/480px-Red_Selenium.jpg",
-    "type": "nonmetal"
+    "type": "non_metal"
   },
   {
     "num": 35,
@@ -786,7 +786,7 @@
     "group": 15,
     "electroNegativity": 2.05,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Antimony_chunk.jpg/480px-Antimony_chunk.jpg",
-    "type": "semimetal"
+    "type": "semi_metal"
   },
   {
     "num": 52,
@@ -801,7 +801,7 @@
     "group": 16,
     "electroNegativity": 2.1,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tellurium2.jpg/480px-Tellurium2.jpg",
-    "type": "semimetal"
+    "type": "semi_metal"
   },
   {
     "num": 53,

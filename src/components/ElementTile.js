@@ -12,19 +12,25 @@ export const ElementTile = (props) => {
 
     var classes = `element-tile ${type}`;
 
-    return (
-        <td className={classes} colSpan={tableWidth}>
-            <span className='el'>
-                <span className='el-num'>{num}</span>
-                <span className='el-symbol'>{symbol}</span>
-            </span>
-            <span className='el'>
-            <div className='el-name'>{name}</div>
-            </span>
-            <span className='el-mass el'>{mass}</span>
-            <ElementPopup element={props.element}/>
-        </td>
-    );
+    if (type!=="gap"){
+        return (
+            <td className={classes} colSpan={tableWidth}>
+                <span className='el'>
+                    <span className='el-num'>{num}</span>
+                    <span className='el-symbol'>{symbol}</span>
+                </span>
+                <span className='el'>
+                <div className='el-name'>{name}</div>
+                </span>
+                <span className='el-mass el'>{mass}</span>
+                {/* <ElementPopup element={props.element}/> */}
+            </td>
+        );
+    } else {
+        return (
+            <td className='gap' colSpan={tableWidth}></td>
+        );
+    }
 }
 
 export default ElementTile;

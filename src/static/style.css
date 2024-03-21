@@ -17,16 +17,36 @@
   align-items: center;
 }
 
-.metal {
-  background-color: #84609f;
-}
-
-.nonmetal {
+.non_metal {
   background-color: #f2b20d;
 }
 
-.noble {
+.halogen {
+  background-color: #f2c65e;
+}
+
+.noble_gas {
   background-color: #d5872a;
+}
+
+.alkali_metal {
+  background-color: #258a6d;
+}
+
+.alkaline_earth_metal {
+  background-color: #8a1251;
+}
+
+.transition_metal {
+  background-color: #811896;
+}
+
+.post_transition_metal {
+  background-color: #a32fb5;
+}
+
+.semi_metal {
+  background-color: #8c6e91;
 }
 
 .lantanian {
