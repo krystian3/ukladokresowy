@@ -1,22 +1,3 @@
-.space{
-    visibility: hidden;
-}
-
-.example{
-    display: inline-block;
-    height: 100%;
-    border: none;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    border-radius: 0.5rem;
-}
-
-.legend-el{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .non_metal{
     background-color: #f2b20d;
 }
@@ -49,13 +30,18 @@
     background-color: #8c6e91;
 }
 
-.lanthanide{
+.lanthanoid{
     background-color: #4e60b1;
 }
 
 .actinoid{
     background-color: #40abbf;
 }
+
+.weird{
+    background-color: #b3a7a6;
+}
+
 
 .App{
     display: flex;
@@ -86,12 +72,19 @@
         height: 5rem;
         display: flex;
         flex-direction: row;
-
+        
         .legend-el{
-            
+            height: 100%;
+            display: flex;
+            align-items: center;
 
             .example{
-                color: white;
+                display: inline-block;
+                height: 100%;
+                border: none;
+                margin-top: 2em;
+                margin-bottom: 2em;
+                border-radius: 0.5rem;
             }
         }
     }
@@ -101,13 +94,57 @@
 
 
 .element-table{
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
     width: 100%;
     border: 1px;
     display: table;
+
+    .half_gap{
+        height: 2em;
+    }
+    
+    .group_tile{
+        cursor: inherit;
+        width: calc((100%*0.985)/18);
+        position: relative;
+        display: table-cell;
+        height: fit-content;
+        padding-right: -1em;
+
+        .group_tile_num{
+            cursor: default;
+            position: absolute;
+            background-color: lightgray;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+    
+    .period_tile{
+        cursor: default;
+        position: relative;
+        background-color: lightgray;
+        display: table-cell;
+        width: calc(100%*0.015);
+
+        .period_tile_num{
+            cursor: default;
+            position: absolute;
+            bottom: 40%;
+            width: 100%;
+        }
+    }
+
+    .corner_tile{
+        height: fit-content;
+        display: table-cell;
+        width: calc(100%*0.015);
+    }
   
   .element-tile{
     display: table-cell;
-    width: calc(100%/18);
+    width: calc((100%*0.985)/18);
     color: white;
     border-right: 1px solid;
     border-left: 1px solid;

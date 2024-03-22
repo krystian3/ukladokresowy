@@ -1,5 +1,28 @@
 [
   {
+    "type": "corner_tile",
+    "num": 1
+  },
+  {
+    "type": "group_tile",
+    "num": "I"
+  },
+  {
+    "tableWidth": 16,
+    "type": "gap"
+  },
+  {
+    "type": "group_tile",
+    "num": "XVIII"
+  },
+  {
+    "type": "end"
+  },
+  {
+    "type": "period_tile",
+    "num": 1
+  },
+  {
     "num": 1,
     "symbol": "H",
     "name": "Wodór",
@@ -15,8 +38,32 @@
     "type": "non_metal"
   },
   {
-    "tableWidth": 16,
+    "type": "group_tile",
+    "num": "II"
+  },
+  {
+    "tableWidth": 10,
     "type": "gap"
+  },
+  {
+    "type": "group_tile",
+    "num": "XIII"
+  },
+  {
+    "type": "group_tile",
+    "num": "XIV"
+  },
+  {
+    "type": "group_tile",
+    "num": "XV"
+  },
+  {
+    "type": "group_tile",
+    "num": "XVI"
+  },
+  {
+    "type": "group_tile",
+    "num": "XVII"
   },
   {
     "num": 2,
@@ -35,6 +82,10 @@
   },
   {
     "type": "end"
+  },
+  {
+    "type": "period_tile",
+    "num": 2
   },
   {
     "num": 3,
@@ -164,6 +215,10 @@
     "type": "end"
   },
   {
+    "type": "period_tile",
+    "num": 3
+  },
+  {
     "num": 11,
     "symbol": "Na",
     "name": "Sód",
@@ -194,8 +249,44 @@
     "type": "alkaline_earth_metal"
   },
   {
-    "tableWidth": 10,
-    "type": "gap"
+    "type": "group_tile",
+    "num": "III"
+  },
+  {
+    "type": "group_tile",
+    "num": "IV"
+  },
+  {
+    "type": "group_tile",
+    "num": "V"
+  },
+  {
+    "type": "group_tile",
+    "num": "VI"
+  },
+  {
+    "type": "group_tile",
+    "num": "VII"
+  },
+  {
+    "type": "group_tile",
+    "num": "VIII"
+  },
+  {
+    "type": "group_tile",
+    "num": "IX"
+  },
+  {
+    "type": "group_tile",
+    "num": "X"
+  },
+  {
+    "type": "group_tile",
+    "num": "XI"
+  },
+  {
+    "type": "group_tile",
+    "num": "XII"
   },
   {
     "num": 13,
@@ -289,6 +380,10 @@
   },
   {
     "type": "end"
+  },
+  {
+    "type": "period_tile",
+    "num": 4
   },
   {
     "num": 19,
@@ -513,7 +608,7 @@
     "group": 15,
     "electroNegativity": 2.18,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Arsen_orange_poly.jpg/360px-Arsen_orange_poly.jpg",
-    "type": "non_metal"
+    "type": "semi_metal"
   },
   {
     "num": 34,
@@ -562,6 +657,10 @@
   },
   {
     "type": "end"
+  },
+  {
+    "type": "period_tile",
+    "num": 5
   },
   {
     "num": 37,
@@ -837,6 +936,10 @@
     "type": "end"
   },
   {
+    "type": "period_tile",
+    "num": 6
+  },
+  {
     "num": 55,
     "symbol": "Cs",
     "name": "Cez",
@@ -879,7 +982,7 @@
     "group": 3,
     "electroNegativity": 1.1,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lanthanum-2.jpg/480px-Lanthanum-2.jpg",
-    "type": "lanthanide"
+    "type": "lanthanoid"
   },
   {
     "num": 72,
@@ -1074,7 +1177,7 @@
     "group": 16,
     "electroNegativity": 2.0,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Polonium%2C_84_Po.jpg/480px-Polonium%2C_84_Po.jpg",
-    "type": "semi_metal"
+    "type": "post_transition_metal"
   },
   {
     "num": 85,
@@ -1089,7 +1192,7 @@
     "group": 17,
     "electroNegativity": 2.2,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Astatine_2.jpg/480px-Astatine_2.jpg",
-    "type": "halogen"
+    "type": "post_transition_metal"
   },
   {
     "num": 86,
@@ -1110,9 +1213,13 @@
     "type": "end"
   },
   {
+    "type": "period_tile",
+    "num": 7
+  },
+  {
     "num": 87,
     "symbol": "Fr",
-    "name": "Franc",
+    "name": "Frans",
     "mass": 223,
     "meltTemp": 300,
     "boilTemp": 950,
@@ -1127,7 +1234,7 @@
   {
     "num": 88,
     "symbol": "Ra",
-    "name": "Rady",
+    "name": "Rad",
     "mass": 226,
     "meltTemp": 973,
     "boilTemp": 2010,
@@ -1157,7 +1264,7 @@
   {
     "num": 104,
     "symbol": "Rf",
-    "name": "Rutherfordium",
+    "name": "Rutherford",
     "mass": 267,
     "meltTemp": null,
     "boilTemp": null,
@@ -1187,7 +1294,7 @@
   {
     "num": 106,
     "symbol": "Sg",
-    "name": "Seaborgium",
+    "name": "Seaborg",
     "mass": 269,
     "meltTemp": null,
     "boilTemp": null,
@@ -1202,7 +1309,7 @@
   {
     "num": 107,
     "symbol": "Bh",
-    "name": "Borium",
+    "name": "Bor",
     "mass": 270,
     "meltTemp": null,
     "boilTemp": null,
@@ -1217,7 +1324,7 @@
   {
     "num": 108,
     "symbol": "Hs",
-    "name": "Hassium",
+    "name": "Has",
     "mass": 269,
     "meltTemp": null,
     "boilTemp": null,
@@ -1232,7 +1339,7 @@
   {
     "num": 109,
     "symbol": "Mt",
-    "name": "Meitnerium",
+    "name": "Meitner",
     "mass": 278,
     "meltTemp": null,
     "boilTemp": null,
@@ -1242,12 +1349,12 @@
     "group": 9,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Meitnerium.jpg/480px-Meitnerium.jpg",
-    "type": "transition_metal"
+    "type": "weird"
   },
   {
     "num": 110,
     "symbol": "Ds",
-    "name": "Darmstadtium",
+    "name": "Darmstadt",
     "mass": 281,
     "meltTemp": null,
     "boilTemp": null,
@@ -1257,12 +1364,12 @@
     "group": 10,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Darmstadtium_crystal.jpg/480px-Darmstadtium_crystal.jpg",
-    "type": "transition_metal"
+    "type": "weird"
   },
   {
     "num": 111,
     "symbol": "Rg",
-    "name": "Roentgenium",
+    "name": "Roentgen",
     "mass": 282,
     "meltTemp": null,
     "boilTemp": null,
@@ -1272,12 +1379,12 @@
     "group": 11,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Roentgenium_crystal.jpg/480px-Roentgenium_crystal.jpg",
-    "type": "transition_metal"
+    "type": "weird"
   },
   {
     "num": 112,
     "symbol": "Cn",
-    "name": "Copernicium",
+    "name": "Kopernik",
     "mass": 285,
     "meltTemp": null,
     "boilTemp": null,
@@ -1287,12 +1394,12 @@
     "group": 12,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Copernicium_crystal.jpg/480px-Copernicium_crystal.jpg",
-    "type": "transition_metal"
+    "type": "weird"
   },
   {
     "num": 113,
     "symbol": "Nh",
-    "name": "Nihonium",
+    "name": "Nihon",
     "mass": 286,
     "meltTemp": null,
     "boilTemp": null,
@@ -1302,12 +1409,12 @@
     "group": 13,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Nihonium_%28NH%29.jpg/480px-Nihonium_%28NH%29.jpg",
-    "type": "post_transition_metal"
+    "type": "weird"
   },
   {
     "num": 114,
     "symbol": "Fl",
-    "name": "Flerovium",
+    "name": "Flerow",
     "mass": 289,
     "meltTemp": null,
     "boilTemp": null,
@@ -1317,12 +1424,12 @@
     "group": 14,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Flerovium.jpg/480px-Flerovium.jpg",
-    "type": "post_transition_metal"
+    "type": "weird"
   },
   {
     "num": 115,
     "symbol": "Mc",
-    "name": "Moscovium",
+    "name": "Moskow",
     "mass": 290,
     "meltTemp": null,
     "boilTemp": null,
@@ -1332,12 +1439,12 @@
     "group": 15,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Moscovium_crystal.jpg/480px-Moscovium_crystal.jpg",
-    "type": "post_transition_metal"
+    "type": "weird"
   },
   {
     "num": 116,
     "symbol": "Lv",
-    "name": "Livermorium",
+    "name": "Liwermor",
     "mass": 293,
     "meltTemp": null,
     "boilTemp": null,
@@ -1347,12 +1454,12 @@
     "group": 16,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Livermorium-3.jpg/480px-Livermorium-3.jpg",
-    "type": "post_transition_metal"
+    "type": "weird"
   },
   {
     "num": 117,
     "symbol": "Ts",
-    "name": "Tennessine",
+    "name": "Tenes",
     "mass": 294,
     "meltTemp": null,
     "boilTemp": null,
@@ -1362,12 +1469,12 @@
     "group": 17,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Tennessine.jpg/480px-Tennessine.jpg",
-    "type": "halogen"
+    "type": "weird"
   },
   {
     "num": 118,
     "symbol": "Og",
-    "name": "Oganesson",
+    "name": "Oganeson",
     "mass": 294,
     "meltTemp": null,
     "boilTemp": null,
@@ -1377,30 +1484,21 @@
     "group": 18,
     "electroNegativity": null,
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Oganesson.jpg/480px-Oganesson.jpg",
-    "type": "noble_gas"
-  },
-  {
-    "type": "half_gap",
-    "tableWidth": 18
-
+    "type": "weird"
   },
   {
     "type": "end"
   },
   {
-    "num": 57,
-    "symbol": "La",
-    "name": "Lantan",
-    "mass": 138.90547,
-    "meltTemp": 1193,
-    "boilTemp": 3737,
-    "desc": "Pierwszy z serii lantanowców.",
-    "discoverYear": 1839,
-    "period": 6,
-    "group": 3,
-    "electroNegativity": 1.1,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Lanthanum-2.jpg/480px-Lanthanum-2.jpg",
-    "type": "lanthanoid"
+    "type": "half_gap",
+    "tableWidth": 18
+  },
+  {
+    "type": "end"
+  },
+  {
+    "type": "gap",
+    "tableWidth": "3"
   },
   {
     "num": 58,
@@ -1616,19 +1714,8 @@
     "type": "end"
   },
   {
-    "num": 89,
-    "symbol": "Ac",
-    "name": "Aktyn",
-    "mass": 227,
-    "meltTemp": 1323,
-    "boilTemp": 3471,
-    "desc": "Pierwszy raz wyizolowany w roku 1899.",
-    "discoverYear": 1899,
-    "period": 7,
-    "group": 3,
-    "electroNegativity": 1.1,
-    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ac.jpg/480px-Ac.jpg",
-    "type": "actinoid"
+    "type": "gap",
+    "tableWidth": "3"
   },
   {
     "num": 90,
@@ -1708,7 +1795,7 @@
   {
     "num": 95,
     "symbol": "Am",
-    "name": "Americ",
+    "name": "Ameryk",
     "mass": 243,
     "meltTemp": 1449,
     "boilTemp": 2880,
@@ -1798,7 +1885,7 @@
   {
     "num": 101,
     "symbol": "Md",
-    "name": "Mendelev",
+    "name": "Mendelew",
     "mass": 258,
     "meltTemp": 1100,
     "boilTemp": 1100,
@@ -1828,7 +1915,7 @@
   {
     "num": 103,
     "symbol": "Lr",
-    "name": "Laurenc",
+    "name": "Lorens",
     "mass": 266,
     "meltTemp": 1900,
     "boilTemp": "Data niedostępna",
